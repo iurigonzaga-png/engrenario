@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: engrenario
+      POSTGRES_PASSWORD: engrenario_dev
+      POSTGRES_DB: engrenario
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - engrenario-postgres:/var/lib/postgresql/data
+
+volumes:
+  engrenario-postgres:

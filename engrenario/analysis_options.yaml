@@ -1,0 +1,10 @@
+analyzer:
+  errors:
+    # A partir do Flutter 3.47 o import de material.dart gera só um aviso
+    # de migração; o app funciona normalmente.
+    deprecated_member_use: ignore
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**

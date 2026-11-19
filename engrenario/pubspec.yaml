@@ -1,0 +1,36 @@
+name: engrenario
+description: "Engrenário: um backlog de jogos com alma de oficina a vapor."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0      # consumo da API RAWG (HTTP + JSON)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Limelight
+      fonts:
+        - asset: assets/fonts/Limelight-Regular.ttf
+    - family: SourceSerif4
+      fonts:
+        - asset: assets/fonts/SourceSerif4-Regular.ttf
+        - asset: assets/fonts/SourceSerif4-Italic.ttf
+          style: italic
+        - asset: assets/fonts/SourceSerif4-SemiBold.ttf
+          weight: 600
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+        - asset: assets/fonts/JosefinSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/JosefinSans-Bold.ttf
+          weight: 700

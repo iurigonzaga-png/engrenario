@@ -1,0 +1,1 @@
+SELECT nome, horas_estimadas, fn_horas_restantes(id) FROM jogos WHERE status = 'jogando';
